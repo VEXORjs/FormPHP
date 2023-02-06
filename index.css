@@ -1,0 +1,26 @@
+h1 {
+    margin-bottom: 2rem;
+}
+
+#outer {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    flex-wrap: wrap;
+}
+
+#inner {
+    flex: 50%;
+    display: inline-flex;
+    margin: 0 auto;
+}
+
+input, textarea {
+    padding: 1rem;
+    margin: 1rem;
+}
+
+input[type="checkbox"] {
+    display: flex;
+    align-items: flex-start;
+}
